@@ -1,0 +1,7 @@
+name: my-flask-app
+type: service
+ports:
+  - 5000:5000
+build:
+  docker:
+    dockerfile: Dockerfile
