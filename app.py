@@ -1,4 +1,6 @@
 from flask import Flask, render_template, request, jsonify
+from markupsafe import escape
+
 
 app = Flask(__name__)
 
